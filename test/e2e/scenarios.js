@@ -16,8 +16,6 @@ describe('PhoneCat App', function() {
 
     beforeEach(function() {
       browser.get('app/index.html#/phones');
-      // Disable animations on the page.
-      element(by.tagName("body")).allowAnimations(false);
     });
 
 
